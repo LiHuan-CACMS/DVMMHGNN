@@ -50,7 +50,7 @@ DVMMHGNN/
 - NetworkX
 
 
-## Usage
+## 🚀 Usage
 
 ### 1. Build data 
 
