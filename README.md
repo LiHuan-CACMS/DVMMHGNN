@@ -1,6 +1,6 @@
 # DVMMHGNN
 
-**DVMMHGNN is a microbe-informed heterogeneous graph neural network framework for drug repurposing that integrates multi-modal biological data to predict drug–disease associations. The model constructs a unified drug–microbe–gene–disease heterogeneous graph and embeds diverse biological entities into a shared latent space through multi-modal feature fusion. To capture higher-order structural and semantic information, DVMMHGNN incorporates a graph masked autoencoder and dual-level graph augmentation, together with structural- and meta-path–aware contrastive learning. This design enables the model to preserve semantic consistency while enhancing robustness under sparse and noisy biological networks, ultimately supporting accurate and reproducible drug–disease association prediction.
+DVMMHGNN is a microbe-informed heterogeneous graph neural network framework for drug repurposing that integrates multi-modal biological data to predict drug–disease associations. The model constructs a unified drug–microbe–gene–disease heterogeneous graph and embeds diverse biological entities into a shared latent space through multi-modal feature fusion. To capture higher-order structural and semantic information, DVMMHGNN incorporates a graph masked autoencoder and dual-level graph augmentation, together with structural- and meta-path–aware contrastive learning. This design enables the model to preserve semantic consistency while enhancing robustness under sparse and noisy biological networks, ultimately supporting accurate and reproducible drug–disease association prediction.
 
 ---
 
@@ -10,10 +10,9 @@ Complex biological systems involve multiple interaction types (disease–gene, g
 DVMMHGNN builds a **heterogeneous graph** combining these relationships and applies **multi-modal message passing** to learn robust embeddings for disease and gene prediction tasks.
 
 **Key features:**
-- Integrates multiple biological networks and annotations  
-- Supports heterogeneous node and edge types  
-- Uses attention-based or adaptive fusion across modalities  
-- Applicable to disease-gene prediction, biological classification, and knowledge discovery  
+- DVMMHGNN constructs a unified drug–microbe–gene–disease heterogeneous graph to explicitly model microbiota-mediated regulatory pathways for drug repurposing  
+- The model integrates multi-modal biological features using pretrained encoders and learns robust representations via a graph masked autoencoder  
+- Dual-level graph augmentation and dual-view contrastive learning are introduced to enhance structural robustness and semantic consistency under sparse conditions 
 
 ---
 
