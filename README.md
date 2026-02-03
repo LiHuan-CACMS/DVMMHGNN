@@ -1,6 +1,6 @@
 # DVMMHGNN
 
-**DVMMHGNN (Disease–Variant–Multi-Modal Heterogeneous Graph Neural Network)** is a framework for integrating multi-source biological data (disease, gene, pathway, GO terms, etc.) into a unified heterogeneous graph and learning representations through graph neural networks.
+**DVMMHGNN is a microbe-informed heterogeneous graph neural network framework for drug repurposing that integrates multi-modal biological data to predict drug–disease associations. The model constructs a unified drug–microbe–gene–disease heterogeneous graph and embeds diverse biological entities into a shared latent space through multi-modal feature fusion. To capture higher-order structural and semantic information, DVMMHGNN incorporates a graph masked autoencoder and dual-level graph augmentation, together with structural- and meta-path–aware contrastive learning. This design enables the model to preserve semantic consistency while enhancing robustness under sparse and noisy biological networks, ultimately supporting accurate and reproducible drug–disease association prediction.
 
 ---
 
